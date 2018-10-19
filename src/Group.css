@@ -1,0 +1,61 @@
+.group {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.group__works:after {
+    clear: both;
+    display: block;
+    height: 0;
+    content: ' ';
+}
+
+.group__description {
+    max-width: 50%;
+    padding: 60px 0;
+    text-align: left;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.group__description .text-field {
+    display: inline-block;
+    width: auto;
+    text-align: left;
+}
+
+.group__description .text-field--editing {
+    display: block;
+}
+
+.noscroll .group__description {
+    opacity: 0;
+}
+
+.group__works {
+    text-align: center;
+}
+
+.group__work {
+    padding-top: 20px;
+    display: inline-block;
+    width: 46%;
+    margin: 2%;
+}
+
+.group__work--single {
+    width: 96%;
+}
+
+.group__remove-work-button {
+    margin: 20px 0;
+}
+
+@media (max-width: 767px) {
+
+    .group__description {
+        max-width: 100%;
+        padding: 30px 0;
+    }
+
+}

@@ -1,0 +1,41 @@
+.link-field {
+    line-height: inherit;
+}
+.link-field__input input {
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    line-height: inherit;
+    padding: 0;
+    padding-left: 70px;
+    margin: 0;
+    background: #f6f6f6;
+}
+
+.link-field__input {
+    width: 100%;
+    position: relative;
+    background: #f6f6f6;
+}
+
+.link-field__input label {
+    width: 60px;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.link-field a {
+    margin-right: 10px;
+}
+
+.link-field button {
+    margin: 0 0 10px 0;
+}
+
+.link-field button.link-field__done-button {
+    margin-left: 0;
+}
+

@@ -1,0 +1,53 @@
+.text-field textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    line-height: inherit;
+    padding: 0;
+    margin: 0;
+    background: #f6f6f6;
+}
+
+.text-field input {
+    width: 100%;
+    border: none;
+    outline: none;
+    line-height: inherit;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    background: #f6f6f6;
+}
+
+.text-field div.text-field__display {
+    min-height: 30px;
+    min-width: 100px;
+    margin-bottom: 0;
+    line-height: inherit;
+    position: relative;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.text-field div.text-field__display--multiline {
+    margin-bottom: 20px;
+}
+
+.app--editing .text-field div.text-field__display:hover {
+    background: #f6f6f6;
+}
+.app--editing .text-field:hover div.text-field__display:after{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    content:'click to edit';
+    display: block;
+    height: auto;
+    padding: 1px 5px;
+    color: #555;
+    background: #eee;
+    font-size: 18px;
+}

@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background: #333;
+}
+body {
+    font-size: 24px;
+    background: #fff;
+}
+h1 {
+    margin-top: 30px;
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+
+html.noscroll,
+html.noscroll body {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+/*html.noscroll .gallery {
+    visibility: hidden;
+    transition: all .2s ease-in-out, visibility 0s;
+}*/
+
+
+a {
+    color: #ff483b;
+}
+
+.admin-bar {
+    display: none;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    min-height: 45px;
+    padding: 0 10px;
+}
+.admin-bar button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.admin-bar__message {
+    padding-top: 5px;
+}
+
+.app--editing .gallery {
+    padding-top: 60px;
+}
+
+.app--editing .admin-bar {
+    display: block;
+}
+
+.app__footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+.app__footer button {
+    margin-left: 10px;
+}
+
+/*.app--editing .app__footer {
+    display: none;
+}
+*/
+
+
+
+.fa-times-thin:before {
+    content: '\00d7';
+}
+
+.modal-container {
+    margin: 0 auto;
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.modal-container--visible {
+    display: block;
+    z-index: 1000;
+    opacity: 1.0;
+}
+
+.close-button {
+    font-size: 2em;
+    line-height: 1;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.project-link {
+    text-align: right;
+    font-size: 0.75em;
+}

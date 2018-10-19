@@ -1,0 +1,24 @@
+.publish-dialog {
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    color: #fff;
+    background: #333;
+    max-width: 600px;
+    position: absolute;
+    line-height: 1.25;
+    font-size: 0.85em;
+}
+.publish-dialog p.small {
+    font-size: 0.75em;
+}
+.publish-dialog__url {
+    background-color: #F5F5F5;
+    color: #333;
+    display: block;
+    font-size: 1em;
+    padding: 5px;
+    text-align: center;
+    margin: 20px 0;
+}

@@ -1,0 +1,36 @@
+.gallery {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    color: #333;
+}
+
+.gallery h1 .text-field textarea {
+    text-align: center;
+}
+
+.gallery h1 .text-field {
+    line-height: 1.125;
+}
+
+.noscroll .gallery h1 {
+    opacity: 0;
+}
+
+.gallery .highlight {
+    background: #eee;
+}
+
+.gallery__group {
+    padding-bottom: 60px;
+}
+
+.app--viewing .gallery button {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .gallery__group {
+        padding-bottom: 30px;
+    }
+}
